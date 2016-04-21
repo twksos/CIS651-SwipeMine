@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C8D9E201CC85A3D0021A902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D9E121CC85A3D0021A902 /* AppDelegate.swift */; };
+		9C8D9E211CC85A3D0021A902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D9E131CC85A3D0021A902 /* Assets.xcassets */; };
+		9C8D9E231CC85A3D0021A902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D9E151CC85A3D0021A902 /* LaunchScreen.storyboard */; };
+		9C8D9E241CC85A3D0021A902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D9E171CC85A3D0021A902 /* Main.storyboard */; };
+		9C8D9E281CC85A3D0021A902 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D9E1C1CC85A3D0021A902 /* Info.plist */; };
+		9C8D9E301CC875880021A902 /* ControlLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D9E2F1CC875880021A902 /* ControlLabel.swift */; };
+		9C8D9E321CC875960021A902 /* MineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D9E311CC875960021A902 /* MineCell.swift */; };
+		9C8D9E341CC87B6D0021A902 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D9E331CC87B6D0021A902 /* MineViewController.swift */; };
+		9C8D9E361CC8A6420021A902 /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D9E351CC8A6420021A902 /* MineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48187E5B1C6C892A00EFB620 /* SwipeMine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8D9E121CC85A3D0021A902 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C8D9E131CC85A3D0021A902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C8D9E161CC85A3D0021A902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C8D9E181CC85A3D0021A902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C8D9E1C1CC85A3D0021A902 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8D9E2F1CC875880021A902 /* ControlLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlLabel.swift; sourceTree = "<group>"; };
+		9C8D9E311CC875960021A902 /* MineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineCell.swift; sourceTree = "<group>"; };
+		9C8D9E331CC87B6D0021A902 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		9C8D9E351CC8A6420021A902 /* MineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48187E581C6C892A00EFB620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48187E521C6C892A00EFB620 = {
+			isa = PBXGroup;
+			children = (
+				9C8D9E101CC85A3D0021A902 /* SwipeMine */,
+				48187E5C1C6C892A00EFB620 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48187E5C1C6C892A00EFB620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48187E5B1C6C892A00EFB620 /* SwipeMine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8D9E101CC85A3D0021A902 /* SwipeMine */ = {
+			isa = PBXGroup;
+			children = (
+				9C8D9E121CC85A3D0021A902 /* AppDelegate.swift */,
+				9C8D9E131CC85A3D0021A902 /* Assets.xcassets */,
+				9C8D9E151CC85A3D0021A902 /* LaunchScreen.storyboard */,
+				9C8D9E171CC85A3D0021A902 /* Main.storyboard */,
+				9C8D9E1C1CC85A3D0021A902 /* Info.plist */,
+				9C8D9E311CC875960021A902 /* MineCell.swift */,
+				9C8D9E2F1CC875880021A902 /* ControlLabel.swift */,
+				9C8D9E351CC8A6420021A902 /* MineView.swift */,
+				9C8D9E331CC87B6D0021A902 /* MineViewController.swift */,
+			);
+			path = SwipeMine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48187E5A1C6C892A00EFB620 /* SwipeMine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48187E831C6C892A00EFB620 /* Build configuration list for PBXNativeTarget "SwipeMine" */;
+			buildPhases = (
+				48187E571C6C892A00EFB620 /* Sources */,
+				48187E581C6C892A00EFB620 /* Frameworks */,
+				48187E591C6C892A00EFB620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeMine;
+			productName = DragMeToHellSwift;
+			productReference = 48187E5B1C6C892A00EFB620 /* SwipeMine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48187E531C6C892A00EFB620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Robert Irwin";
+				TargetAttributes = {
+					48187E5A1C6C892A00EFB620 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 48187E561C6C892A00EFB620 /* Build configuration list for PBXProject "SwipeMine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48187E521C6C892A00EFB620;
+			productRefGroup = 48187E5C1C6C892A00EFB620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48187E5A1C6C892A00EFB620 /* SwipeMine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48187E591C6C892A00EFB620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8D9E211CC85A3D0021A902 /* Assets.xcassets in Resources */,
+				9C8D9E281CC85A3D0021A902 /* Info.plist in Resources */,
+				9C8D9E241CC85A3D0021A902 /* Main.storyboard in Resources */,
+				9C8D9E231CC85A3D0021A902 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48187E571C6C892A00EFB620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8D9E321CC875960021A902 /* MineCell.swift in Sources */,
+				9C8D9E341CC87B6D0021A902 /* MineViewController.swift in Sources */,
+				9C8D9E361CC8A6420021A902 /* MineView.swift in Sources */,
+				9C8D9E301CC875880021A902 /* ControlLabel.swift in Sources */,
+				9C8D9E201CC85A3D0021A902 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C8D9E151CC85A3D0021A902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8D9E161CC85A3D0021A902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9C8D9E171CC85A3D0021A902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8D9E181CC85A3D0021A902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48187E811C6C892A00EFB620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48187E821C6C892A00EFB620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48187E841C6C892A00EFB620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeMine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twksos.swipemine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		48187E851C6C892A00EFB620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeMine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twksos.swipemine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48187E561C6C892A00EFB620 /* Build configuration list for PBXProject "SwipeMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48187E811C6C892A00EFB620 /* Debug */,
+				48187E821C6C892A00EFB620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48187E831C6C892A00EFB620 /* Build configuration list for PBXNativeTarget "SwipeMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48187E841C6C892A00EFB620 /* Debug */,
+				48187E851C6C892A00EFB620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48187E531C6C892A00EFB620 /* Project object */;
+}

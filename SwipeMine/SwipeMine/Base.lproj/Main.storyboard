@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1UZ-gw-SIV">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Mine View Controller-->
+        <scene sceneID="UQx-0b-ngz">
+            <objects>
+                <viewController id="1UZ-gw-SIV" customClass="MineViewController" customModule="SwipeMine" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KRW-ml-Em8"/>
+                        <viewControllerLayoutGuide type="bottom" id="9zq-8M-jLd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h6V-ya-E55" customClass="MineView" customModule="SwipeMine" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="😶" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMU-Ab-jMY" customClass="ControlLabel" customModule="SwipeMine" customModuleProvider="target">
+                                <rect key="frame" x="279" y="20" width="42" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Ke9-zY-F5K"/>
+                                    <constraint firstAttribute="width" constant="50" id="moN-iG-rUH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NMU-Ab-jMY" firstAttribute="centerX" secondItem="h6V-ya-E55" secondAttribute="centerX" id="D9U-O2-Ag7"/>
+                            <constraint firstItem="NMU-Ab-jMY" firstAttribute="top" secondItem="h6V-ya-E55" secondAttribute="top" constant="25" id="Teo-oz-L48"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mineView" destination="h6V-ya-E55" id="jY1-Ch-dFJ"/>
+                        <outlet property="stateButton" destination="NMU-Ab-jMY" id="G9H-w8-FLn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UV1-6w-Qof" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="370" y="-294"/>
+        </scene>
+    </scenes>
+</document>
